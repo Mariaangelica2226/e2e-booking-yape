@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4090b4fa-2301-4009-aa41-c01e307efbd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/acceptancetests/AcceptanceTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/driver/WebDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/navigation/NavigateTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/navigation/pages/RurallHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/MathsStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/TestStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/math/adding_numbers.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +201,7 @@
       <workItem from="1698898643046" duration="10065000" />
       <workItem from="1699573338901" duration="285000" />
       <workItem from="1699573898445" duration="7000" />
-      <workItem from="1699573988086" duration="314000" />
+      <workItem from="1699573988086" duration="885000" />
     </task>
     <servers />
   </component>
