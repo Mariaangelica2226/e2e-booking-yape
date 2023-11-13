@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4090b4fa-2301-4009-aa41-c01e307efbd3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/AuthenticationStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/BookingStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/booking/authentication_api_testing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/booking/failed_authentication_api_testing.feature.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/jsonschemas/getBookingsIds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/acceptancetests/AcceptanceTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/acceptancetests/AcceptanceTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/steps/MathsStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/steps/TestStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/TestStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/math/adding_numbers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/booking/get_booking_ids.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,35 +48,60 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MiproyectoUno" type="f1a62948:ProjectNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MiproyectoUno" type="f1a62948:ProjectNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MiproyectoUno" type="f1a62948:ProjectNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MiproyectoUno" type="f1a62948:ProjectNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="help" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MiproyectoUno" type="f1a62948:ProjectNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="ide" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="serenity bdd" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MiproyectoUno" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="AutomatizacionServiciosWebRestfulBooker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -94,39 +138,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SeleniumPlugin.ClassNameSelectorCheckEnabled": "true",
-    "SeleniumPlugin.CssSelectorCheckEnabled": "true",
-    "SeleniumPlugin.IdSelectorCheckEnabled": "true",
-    "SeleniumPlugin.IsSelectorCheckEnabled": "true",
-    "SeleniumPlugin.PhantomJsPath": "/Users/mariaangelica/AutomationProjects/MiproyectoUno/chromedriver",
-    "SeleniumPlugin.TagNameSelectorCheckEnabled": "true",
-    "SeleniumPlugin.XpathSelectorCheckEnabled": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/mariaangelica/AutomationProjects/AutomatizacionServiciosWebRestfulBooker",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "08679efa16c69cef53eb3eb5dff61db2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SeleniumPlugin.ClassNameSelectorCheckEnabled&quot;: &quot;true&quot;,
+    &quot;SeleniumPlugin.CssSelectorCheckEnabled&quot;: &quot;true&quot;,
+    &quot;SeleniumPlugin.IdSelectorCheckEnabled&quot;: &quot;true&quot;,
+    &quot;SeleniumPlugin.IsSelectorCheckEnabled&quot;: &quot;true&quot;,
+    &quot;SeleniumPlugin.PhantomJsPath&quot;: &quot;/Users/mariaangelica/AutomationProjects/MiproyectoUno/chromedriver&quot;,
+    &quot;SeleniumPlugin.TagNameSelectorCheckEnabled&quot;: &quot;true&quot;,
+    &quot;SeleniumPlugin.XpathSelectorCheckEnabled&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mariaangelica/AutomationProjects/AutomatizacionServiciosWebRestfulBooker/src/test/resources/features/booking&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;08679efa16c69cef53eb3eb5dff61db2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features/booking" />
       <recent name="$PROJECT_DIR$/gradle/wrapper" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java/org/example/steps" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.steps" />
       <recent name="org.example.navigation.pages" />
       <recent name="org.example.navigation" />
       <recent name="" />
@@ -154,6 +201,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutomatizacionServiciosWebRestfulBooker [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutomatizacionServiciosWebRestfulBooker [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Test" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,7 +257,7 @@
             <option value="test" />
           </list>
         </option>
-        <option name="vmOptions" value="--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
@@ -178,10 +267,13 @@
     <list>
       <item itemvalue="Cucumber Java.Feature: adding_numbers" />
       <item itemvalue="Gradle.Test" />
+      <item itemvalue="Gradle.AutomatizacionServiciosWebRestfulBooker [clean]" />
+      <item itemvalue="Gradle.AutomatizacionServiciosWebRestfulBooker [build]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Test" />
+        <item itemvalue="Gradle.AutomatizacionServiciosWebRestfulBooker [clean]" />
+        <item itemvalue="Gradle.AutomatizacionServiciosWebRestfulBooker [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +293,13 @@
       <workItem from="1698898643046" duration="10065000" />
       <workItem from="1699573338901" duration="285000" />
       <workItem from="1699573898445" duration="7000" />
-      <workItem from="1699573988086" duration="885000" />
+      <workItem from="1699573988086" duration="2277000" />
+      <workItem from="1699577931676" duration="2498000" />
+      <workItem from="1699636701542" duration="3286000" />
+      <workItem from="1699640046541" duration="2623000" />
+      <workItem from="1699751104176" duration="5466000" />
+      <workItem from="1699836376524" duration="5849000" />
+      <workItem from="1699845697220" duration="688000" />
     </task>
     <servers />
   </component>

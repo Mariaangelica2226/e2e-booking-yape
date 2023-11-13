@@ -23,6 +23,10 @@ apply plugin: 'idea'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 
 
+serenity {
+    reports = ["single-page-html"]
+}
+
 ext {
     serenity_version = '4.0.15'
     junit_platform_launcher_version="1.10.0"
@@ -32,6 +36,8 @@ ext {
     junit_vintage_engine_version="5.9.3"
     logback_classic_version="1.2.10"
     assertj_core_version="3.23.1"
+    rest_assured_version="5.3.2"
+    slf4j_version="2.0.2"
 }
 
 dependencies {
@@ -48,11 +54,16 @@ dependencies {
         testImplementation "org.junit.vintage:junit-vintage-engine:${junit_vintage_engine_version}"
         implementation "ch.qos.logback:logback-classic:${logback_classic_version}"
         testImplementation "org.assertj:assertj-core:${assertj_core_version}"
+        testImplementation "net.serenity-bdd:serenity-rest-assured:${serenity_version}"
+        testImplementation "io.rest-assured:rest-assured:${rest_assured_version}"
+        testImplementation "io.rest-assured:json-schema-validator:${rest_assured_version}"
+        testImplementation "org.slf4j:slf4j-simple:${slf4j_version}"
     }
 }
 
 test {
     useJUnitPlatform()
+    systemProperty "cucumber.filter.tags", System.getProperty("cucumber.filter.tags")
 }
 
 
